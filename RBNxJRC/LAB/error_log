@@ -1,0 +1,2 @@
+[02-Mar-2023 23:02:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'REPLACE_WITH_YOUR_USERNAME'@'localhost' (using password: YES) in /home/captaine/public_html/jrc/RBNxJRC/LAB/esp-database.php on line 78
+[02-Mar-2023 23:04:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'REPLACE_WITH_YOUR_USERNAME'@'localhost' (using password: YES) in /home/captaine/public_html/jrc/RBNxJRC/LAB/esp-database.php on line 78

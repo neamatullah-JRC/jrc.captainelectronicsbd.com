@@ -1,0 +1,2 @@
+[03-Mar-2023 15:58:22 UTC] PHP Warning:  Undefined variable $data in /home/captaine/public_html/jrc/soil/index.php on line 13
+[03-Mar-2023 15:58:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/captaine/public_html/jrc/soil/index.php on line 13
