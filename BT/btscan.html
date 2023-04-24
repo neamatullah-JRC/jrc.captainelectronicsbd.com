@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bluetooth Scanner</title>
+</head>
+<body>
+    <h1>Bluetooth Scanner</h1>
+    <button id="startScanButton">Start Scan</button>
+    <button id="stopScanButton" disabled>Stop Scan</button>
+    <div id="devices"></div>
+
+    <script>
+        const devicesDiv = document.querySelector('#devices');
+        let scanTimeout;
+
+        const startScan = async () => {
+            try {
+                const options = {
+                    acceptAllDevices: true
+                };
+                devicesDiv.innerHTML = 'Scanning...';
+                const device = await navigator.bluetooth.requestDevice(options);
+                devicesDiv.innerHTML = `Found device: ${device.name} (${device.id})<br>Service UUIDs: ${device.uuids.join(', ')}`;
+            } catch (error) {
+                console.error(error);
+            }
+        };
+
+        const stopScan = () => {
+            navigator.bluetooth.getDevices().then(devices => {
+                devicesDiv.innerHTML = '';
+                devices.forEach(device => {
+                    devicesDiv.innerHTML += `Found device: ${device.name} (${device.id})<br>Service UUIDs: ${device.uuids.join(', ')}<br><br>`;
+                });
+            });
+            clearTimeout(scanTimeout);
+        };
+
+        document.querySelector('#startScanButton').addEventListener('click', () => {
+            startScan();
+            scanTimeout = setTimeout(stopScan, 5000);
+            document.querySelector('#startScanButton').disabled = true;
+            document.querySelector('#stopScanButton').disabled = false;
+        });
+
+        document.querySelector('#stopScanButton').addEventListener('click', () => {
+            stopScan();
+            document.querySelector('#startScanButton').disabled = false;
+            document.querySelector('#stopScanButton').disabled = true;
+        });
+    </script>
+</body>
+</html>

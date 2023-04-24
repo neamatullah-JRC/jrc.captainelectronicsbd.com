@@ -1,0 +1,54 @@
+[19-Sep-2022 18:55:16 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/captaine/public_html/jrc/live/index.php on line 7
+[19-Sep-2022 18:55:16 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/captaine/public_html/jrc/live/index.php:15
+Stack trace:
+#0 /home/captaine/public_html/jrc/live/index.php(15): mysqli->query('SELECT  `locati...')
+#1 {main}
+  thrown in /home/captaine/public_html/jrc/live/index.php on line 15
+[19-Sep-2022 18:55:37 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/captaine/public_html/jrc/live/index.php on line 7
+[19-Sep-2022 18:55:37 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/captaine/public_html/jrc/live/index.php:15
+Stack trace:
+#0 /home/captaine/public_html/jrc/live/index.php(15): mysqli->query('SELECT  `locati...')
+#1 {main}
+  thrown in /home/captaine/public_html/jrc/live/index.php on line 15
+[19-Sep-2022 18:56:37 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/captaine/public_html/jrc/live/index.php on line 7
+[19-Sep-2022 18:56:37 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/captaine/public_html/jrc/live/index.php:15
+Stack trace:
+#0 /home/captaine/public_html/jrc/live/index.php(15): mysqli->query('SELECT  `locati...')
+#1 {main}
+  thrown in /home/captaine/public_html/jrc/live/index.php on line 15
+[19-Sep-2022 18:56:41 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/captaine/public_html/jrc/live/index.php on line 7
+[19-Sep-2022 18:56:41 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/captaine/public_html/jrc/live/index.php:15
+Stack trace:
+#0 /home/captaine/public_html/jrc/live/index.php(15): mysqli->query('SELECT  `locati...')
+#1 {main}
+  thrown in /home/captaine/public_html/jrc/live/index.php on line 15
+[19-Sep-2022 18:56:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/captaine/public_html/jrc/live/index.php on line 7
+[19-Sep-2022 18:56:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/captaine/public_html/jrc/live/index.php:15
+Stack trace:
+#0 /home/captaine/public_html/jrc/live/index.php(15): mysqli->query('SELECT  `locati...')
+#1 {main}
+  thrown in /home/captaine/public_html/jrc/live/index.php on line 15
+[06-Dec-2022 06:49:41 UTC] PHP Warning:  Undefined array key -1 in /home/captaine/public_html/jrc/live/index.php on line 26
+[06-Dec-2022 06:49:41 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 60
+[06-Dec-2022 06:49:41 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 60
+[06-Dec-2022 06:49:41 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 70
+[06-Dec-2022 06:49:41 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 87
+[06-Dec-2022 06:49:41 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 87
+[06-Dec-2022 06:49:41 UTC] PHP Warning:  Undefined array key -1 in /home/captaine/public_html/jrc/live/index.php on line 88
+[06-Dec-2022 06:49:41 UTC] PHP Warning:  Undefined array key -1 in /home/captaine/public_html/jrc/live/index.php on line 88
+[07-Dec-2022 08:14:08 UTC] PHP Warning:  Undefined array key -1 in /home/captaine/public_html/jrc/live/index.php on line 26
+[07-Dec-2022 08:14:08 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 60
+[07-Dec-2022 08:14:08 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 60
+[07-Dec-2022 08:14:08 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 70
+[07-Dec-2022 08:14:08 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 87
+[07-Dec-2022 08:14:08 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 87
+[07-Dec-2022 08:14:08 UTC] PHP Warning:  Undefined array key -1 in /home/captaine/public_html/jrc/live/index.php on line 88
+[07-Dec-2022 08:14:08 UTC] PHP Warning:  Undefined array key -1 in /home/captaine/public_html/jrc/live/index.php on line 88
+[07-Dec-2022 08:14:15 UTC] PHP Warning:  Undefined array key -1 in /home/captaine/public_html/jrc/live/index.php on line 26
+[07-Dec-2022 08:14:15 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 60
+[07-Dec-2022 08:14:15 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 60
+[07-Dec-2022 08:14:15 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 70
+[07-Dec-2022 08:14:15 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 87
+[07-Dec-2022 08:14:15 UTC] PHP Warning:  Undefined array key 0 in /home/captaine/public_html/jrc/live/index.php on line 87
+[07-Dec-2022 08:14:15 UTC] PHP Warning:  Undefined array key -1 in /home/captaine/public_html/jrc/live/index.php on line 88
+[07-Dec-2022 08:14:15 UTC] PHP Warning:  Undefined array key -1 in /home/captaine/public_html/jrc/live/index.php on line 88
